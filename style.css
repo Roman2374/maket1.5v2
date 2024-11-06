@@ -101,10 +101,8 @@
 @media (min-width: 768px) {
   .titlePage {
     height: 56px;
-  }
-
-  .qgjnikfodmbpovcd {
-    width: unset;
+    width: 726px;
+    margin: 0 auto;
   }
 
   .swiper,
@@ -124,9 +122,13 @@
     width: 726px !important;
     margin: 0 auto;
     margin-top: 24px;
-    max-height: 175px;
+    max-height: 166px;
     overflow: hidden;
     transition: max-height 0.25s ease !important;
+  }
+
+  .titlePage__text {
+    padding-left: 0;
   }
 
   .brend {
@@ -143,13 +145,14 @@
     all: unset;
     display: flex;
     align-items: center;
-    margin: 24px;
+    margin: 0 auto;
+    width: 726px;
     font-family: "TT-Lakes";
     font-weight: 500;
     font-size: 16px;
-    width: 134px;
     height: 24px;
     gap: 8px;
+    margin-top: 24px;
   }
 
   .closeMore {
@@ -164,7 +167,15 @@
     row-gap: 16px;
   }
 
+  .titlePage {
+    width: 1065px;
+  }
+
   .brend {
     width: 240px !important;
+  }
+
+  .readMore {
+    width: 1065px;
   }
 }
